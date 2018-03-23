@@ -1,0 +1,16 @@
+{
+  "name": "react-native-linking-settings",
+  "version": "1.0.0",
+  "description": "open system settings in react native app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "hhe",
+  "license": "MIT",
+  "repository": "https://github.com/h124551753/react-native-linking-settings",
+  "homepage": "https://github.com/h124551753/react-native-linking-settings#readme"
+}
