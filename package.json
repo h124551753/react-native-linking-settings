@@ -1,6 +1,6 @@
 {
   "name": "react-native-linking-settings",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "open system settings in react native app",
   "main": "index.js",
   "scripts": {

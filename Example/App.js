@@ -12,7 +12,7 @@ import {
   Text,
   View
 } from 'react-native';
-import RNOpenSettings from 'react-native-linking-settings';
+import LinkingSettings from 'react-native-linking-settings';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -27,9 +27,9 @@ export default class App extends Component<Props> {
   openSettings = () => {
     console.log('press');
     if(Platform.OS === 'ios'){ 
-      RNOpenSettings.openSettings('App-Prefs:root=WIFI');
+      LinkingSettings.openSettings('App-Prefs:root=WIFI');
     }else{
-      RNOpenSettings.openSettings('SETTINGS');
+      LinkingSettings.openSettings('SETTINGS');
     }
   };
 
