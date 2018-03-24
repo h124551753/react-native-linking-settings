@@ -11,6 +11,12 @@
   ],
   "author": "hhe",
   "license": "MIT",
-  "repository": "https://github.com/h124551753/react-native-linking-settings",
-  "homepage": "https://github.com/h124551753/react-native-linking-settings#readme"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h124551753/react-native-linking-settings.git"
+  },
+  "homepage": "https://github.com/h124551753/react-native-linking-settings#readme",
+  "bugs": {
+    "url": "https://github.com/h124551753/react-native-linking-settings/issues"
+  }
 }
